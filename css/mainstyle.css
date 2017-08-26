@@ -1,0 +1,183 @@
+body, html {
+  height: 100%;
+}
+#entete {
+  right: 0px;
+  top: 0px;
+  background-color: #1f3e9c;
+  z-index: 2;
+  width: 100%;
+  position: fixed;
+  height: 180px;
+  background-repeat: repeat-x;
+}
+#bandeau {
+  border: 1px solid black;
+  margin: auto;
+  padding: 10px 12px;
+  position: relative;
+  vertical-align: middle;
+  z-index: 2;
+  background-color: white;
+  width: 1000px;
+  top: 25px;
+  height: 195px;
+}
+#menu {
+  position: fixed;
+  top: 242px;
+  z-index: 1;
+  width: 100%;
+  left: 0px;
+  background-repeat: repeat-x;
+}
+#contenu {
+  padding: 20px 30px 10px;
+  z-index: 0;
+  width: 965px;
+  top: 242px;
+  min-height: 100%;
+  margin-bottom: auto;
+  margin-right: auto;
+  background-image: url(../images/fine-writing-paper.jpg);
+  margin-left: auto;
+  position: relative;
+}
+#menu ul {
+  margin: 0px auto;
+  padding: 4px 13px;
+  display: block;
+  background-color: #3366ff;
+  position: relative;
+  width: 1000px;
+  text-align: center;
+  vertical-align: bottom;
+  background-image: url(../images/bgmenu.png);
+  background-repeat: repeat-x;
+}
+#menu li {
+  padding: 3px 8px;
+  color: white;
+  vertical-align: top;
+  font-size: 14px;
+  text-transform: capitalize;
+  display: inline;
+  font-weight: bold;
+  text-decoration: none;
+}
+.site_name {
+  position: absolute;
+  z-index: 1;
+}
+.site_img {
+  position: relative;
+  top: 45px;
+  z-index: 0;
+}
+#menu li:hover {
+  text-transform: capitalize;
+  border-bottom-style: none;
+  border-left-width: 1px;
+  background-color: #33ccff;
+  background-image: url(../images/hbgmenu.png);
+  background-repeat: repeat-x;
+}
+#contenu h1 {
+  font-family: Arial,Helvetica,sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  color: #333399;
+  font-size: x-large;
+}
+#contenu h2 {
+  font-size: large;
+  font-family: Arial,Helvetica,sans-serif;
+  color: #333399;
+}
+.tableau {
+  background-color: #6600cc;
+  margin-left: 25px;
+}
+#contenu td {
+  background-color: #f3f3f3;
+  font-family: Arial,Helvetica,sans-serif;
+  text-align: center;
+}
+#contenu th {
+  font-family: Arial,Helvetica,sans-serif;
+  font-weight: bold;
+  background-color: #ccccff;
+  font-size: medium;
+  text-align: center;
+}
+#contenu p {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: medium;
+  color: #000099;
+  margin-left: 25px;
+}
+.galerie img {
+  border-style: none;
+  padding: 20px 5px;
+  background-position:  center center;
+  margin-right: -4px;
+  margin-top: 0px;
+  background-image: url(../images/pellicule.gif);
+  margin-left: -4px;
+  top: 0px;
+}
+#contenu ul {
+  color: #000099;
+  font-size: medium;
+  list-style-type: circle;
+  margin-left: 25px;
+  font-family: Arial,Helvetica,sans-serif;
+}
+.illustration {
+  margin: 10px;
+  padding: 10px;
+  border-collapse: collapse;
+  background-color: white;
+  width: 200px;
+  color: #000099;
+  position: static;
+}
+.illustration td {
+  padding: 6px;
+  font-style: italic;
+  font-size: small;
+  display: block;
+}
+#contenu li {
+}
+.illustration a {
+  padding: 0px;
+}
+#menu a {
+  text-decoration: none;
+  color: white;
+}
+.Liens a {
+  text-decoration: none;
+  line-height: 80px;
+  height: 80px;
+ }
+.Liens {
+  margin-left: 25px;
+  padding-left: 15px;
+  margin-top: 15px;
+ }
+.Liens img {
+  border-style: solid;
+  border-width: 0px;
+  vertical-align:middle;
+  margin-right:20px;
+}
+.illustration img {
+  border-style: solid;
+  border-width: 0px;
+}
+.CadreLettre {
+  border-style: solid;
+  border-color: #ffc508;
+}
